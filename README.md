@@ -30,18 +30,21 @@ Aplicación iOS desarrollada en Swift que implementa la arquitectura **MVP (Mode
    pod install
    open Movies.xcworkspace
 
-# 🎬 Estructura del Proyecto
-  Movies/
-  ├── AppDelegate.swift
-  ├── Coordinators/
-  │   └── AppCoordinator.swift
-  ├── Models/
-  │   └── Movie.swift
-  ├── Presenters/
-  │   └── MoviePresenter.swift
-  ├── Views/
-  │   └── MovieViewController.swift
-  ├── Resources/
-  │   └── Assets.xcassets
-  ├── Supporting Files/
-  │   └── Info.plist
+## 📁 Estructura del proyecto
+
+```plaintext
+Movies/
+├── AppDelegate.swift
+├── Coordinators/
+│   └── AppCoordinator.swift
+├── Models/
+│   └── Movie.swift
+├── Presenters/
+│   └── MoviePresenter.swift
+├── Views/
+│   └── MovieViewController.swift
+├── Resources/
+│   └── Assets.xcassets
+├── Supporting Files/
+│   └── Info.plist
+
